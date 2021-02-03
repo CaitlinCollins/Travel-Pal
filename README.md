@@ -44,7 +44,7 @@ The application will be responsive to whatever device I am using at the moment.
 - Font Awesome
 - Google Fonts
 
-## Screen Shots ## Third-Party-AP
+## Screen Shots 
 
 
 ## Deploy Link ##
