@@ -6,7 +6,7 @@ The modern day traveler's best friend!
 
 [Technologies](https://github.com/CaitlinCollins/Travel-Pal#technologies)
 
-[Screen Shots](https://github.com/CaitlinCollins/Travel-Pals#screen-shots)
+[Screen Shots](https://github.com/CaitlinCollins/Travel-Pal#screen-shots)
 
 [Deploy Link](https://github.com/CaitlinCollins/Travel-Pal#deploy-link)
 
