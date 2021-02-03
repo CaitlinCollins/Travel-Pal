@@ -179,6 +179,7 @@ $("#citySearch").on("click", function () {
   });
 });
 
+
 function countryName($country) {
 	const settings = {
 		async: true,
@@ -242,18 +243,18 @@ function colorChange() {
     nine.attr("id", "cTwo");
   }, 1200);
   setTimeout(function () {
-    one.attr("id", "");
-    four.attr("id", "");
-    seven.attr("id", "");
+    one.attr("id", "one");
+    four.attr("id", "four");
+    seven.attr("id", "seven");
   }, 1400);
   setTimeout(function () {
-    two.removeAttr("id");
-    five.removeAttr("id");
-    eight.removeAttr("id");
+    two.attr("id", "two" );
+    five.attr("id", "five");
+    eight.attr("id", "eight");
   }, 1600);
   setTimeout(function () {
-    three.removeAttr("id");
-    six.removeAttr("id");
-    nine.removeAttr("id");
+    three.attr("id", "three");
+    six.attr("id", "six");
+    nine.attr("id", "nine");
   }, 1800);
-}
+};
