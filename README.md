@@ -48,6 +48,6 @@ The application will be responsive to whatever device I am using at the moment.
 
 
 ## Deploy Link ##
-https://caitlincollins.github.io/Travel=-Pal/
+https://caitlincollins.github.io/Travel-Pal/
 
 
