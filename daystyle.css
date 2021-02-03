@@ -170,7 +170,7 @@ h4 {
 	font-weight: bolder;
 	color: rgb(132, 247, 247);
 }
-/* .dropdown-menu {
+ .dropdown-menu {
 	list-style-type: none;
 	padding-left: 290px;
 	margin-top: 35px;
@@ -183,7 +183,7 @@ h4 {
 	color: gold;
 	font-size: larger;
 	font-weight: bold;
-} */
+} 
 
 /****** Styling for everything in the weather section ******/
 #fiveDaySection {
