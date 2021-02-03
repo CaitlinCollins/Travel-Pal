@@ -229,7 +229,6 @@ h3 {
 p {
 	margin-bottom: 4px;
 }
-
 /* * MacBook Pro (1.5 scaling) */
 @media only screen and (max-width: 1680px) { 
 	#phraseInput {
@@ -267,6 +266,9 @@ p {
 	#phraseInput {
 		width: 172px;
 		margin-left: 0;
+	}
+	.dropdown-menu {
+		padding-left: 175px;
 	}
 	#fiveDaySection {
 		padding-top: 0px;
@@ -392,13 +394,15 @@ p {
 		width: 108px;
 		font-size: 14px;
 	}
+	.dropdown-menu {
+		padding-left: 125px;
+	}
 	#fiveDaySection {
 		padding-top: 20px;
 	}
 	h3 {
 		font-size: 22px;
 	}
-
 	#forecast {
 		font-size: 32px;
 	}
@@ -458,6 +462,10 @@ p {
 		width: 180px;
 		font-size: 18px;
 		margin-left: 40px;
+	}
+	.dropdown-menu {
+		padding-left: 65px;
+		padding-top: 60px;
 	}
 	#fiveDaySection {
 		padding-top: 0px;
@@ -530,6 +538,10 @@ p {
 	#langSel {
 		width: 160px;
 	}
+	.dropdown-menu {
+		padding-left: 20px;
+		padding-top: 60px;
+	}
 	#fiveDaySection {
 		padding-top: 0px;
 	}
@@ -551,6 +563,9 @@ p {
 	}
 	#translateMe {
 		padding-top: 0px;
+	}
+	.dropdown-menu {
+		padding-left: 15px;
 	}
 	#fiveDaySection {
 		padding-top: 0px;
@@ -578,6 +593,10 @@ p {
 		margin-top: 10px;
 		margin-left: 5px;
 	}
+	.dropdown-menu {
+		padding-left: 350px;
+		padding-top: 20px;
+	}
 	#fiveDaySection {
 		padding-top: 60px;
 	}
@@ -602,6 +621,10 @@ p {
 	#phraseInput {
 		margin-left: 156px;
 	}
+	.dropdown-menu {
+		padding-left: 335px;
+		
+	}
 }
 /* * iPhone SE (landscape)* */
 @media only screen and (max-width: 568px) { 
@@ -625,8 +648,12 @@ p {
 	#phraseInput {
 		margin-left: 100px;
 	}
+	.dropdown-menu {
+		padding-left: 315px;
+		
+	}
 }
-/* * iPhone 8 Plus (landscape)* */
+/* * iPhone 8 Plus * */
 @media only screen and (max-width: 414px) { 
 	h1 {
 		font-size: 32px;
@@ -646,6 +673,13 @@ p {
 	#phraseInput {
 		margin-left: 25px;
 	}
+	.dropdown-menu {
+		padding-left: 200px;
+		
+	}
+	#fiveDaySection {
+		padding-top: 160px;
+	}
 }
 /* * iPhone X* */
 @media only screen and (max-width: 375px) { 
@@ -664,6 +698,10 @@ p {
 	}
 	#phraseInput {
 		margin-left: 5px;
+	}
+	.dropdown-menu {
+		padding-left: 180px;
+		
 	}
 }
 /* * iPhone SE* */
