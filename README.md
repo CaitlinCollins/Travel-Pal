@@ -38,7 +38,7 @@ The application will be responsive to whatever device I am using at the moment.
 - Google Translate API
 - Geo Cities API
 - Geo Countries API
-- AJAX GET method
+- AJAX GET and POST methods
 - Local Storage
 - JSON
 - Font Awesome
