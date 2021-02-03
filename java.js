@@ -37,6 +37,9 @@ $spanish = ("#de");
 // 	console.log(response);
 // });
 
+// Hides certain elements on page load.
+$("h4").hide();
+$("#fiveDaySection").hide();
 
 function currencyCodeGrab($country) {
 	const settings = {
@@ -86,6 +89,9 @@ function currencyCodeGrab($country) {
 $("#citySearch").on("click", function () {
   event.preventDefault();
   colorChange();
+  // Shows certain elements on click.
+  $("h4").show();
+  $("#fiveDaySection").show();
   $fiveDay.empty();
   $grabCity = $cityInput.val();
   console.log($grabCity);
