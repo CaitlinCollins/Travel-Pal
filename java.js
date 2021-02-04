@@ -17,27 +17,6 @@ $italian = ("#it");
 $spanish = ("#de");
 
 
-// $('.dropdown-item').on('click',function() {
-//   console.log($(this).attr('tolang'))
-// })
-// const settings = {
-// 	"async": true,
-// 	"crossDomain": true,
-// 	"url": "https://kiara-translate.p.rapidapi.com/get_translated/",
-// 	"method": "POST",
-// 	"headers": {
-// 		"content-type": "application/json",
-// 		"x-rapidapi-key": "aa0fcad8b2msh86b04d71f9f4ab5p1463a5jsn539a4a4083a9",
-// 		"x-rapidapi-host": "kiara-translate.p.rapidapi.com"
-// 	},
-// 	"processData": false,
-// 	"data": "{\n    \"input\": \"We make the world a better place\",\n    \"lang\": \"ja\"\n}"
-// };
-
-// $.ajax(settings).done(function (response) {
-// 	console.log(response);
-// });
-
 // Hides certain elements on page load.
 $("h4").hide();
 $("#fiveDaySection").hide();
@@ -85,34 +64,47 @@ function currencyCodeGrab($country) {
 		});
 	});
 }
+$lastCity = localStorage.getItem("lastCity");
+console.log($lastCity);
+if ($lastCity !== null) {
+  $lastCity = $grabCity;
+
+
+
+
+}
 
 //click event for search button that triggers the ajax routine
-$("#citySearch").on("click", function () {
-  event.preventDefault();
-  colorChange();
-  // Shows certain elements on click.
-  $("h4").show();
-  $("#fiveDaySection").show();
-  $fiveDay.empty();
-  $grabCity = $cityInput.val();
-  console.log($grabCity);
-  $queryUrl =
-    "https://api.openweathermap.org/data/2.5/weather?q=" +
-    $grabCity +
-    "&units=imperial&appid=" +
-    $apiKey;
 
-  $.ajax({
-    url: $queryUrl,
-    method: "GET",
-  }).then(function (response) {
-    $latRelay = response.coord.lat;
-    $lonRelay = response.coord.lon;
-    $country = response.sys.country;
-    console.log(response);
-    console.log(response.sys.country);
-    $("#country").html($country);
-    $oneCallUrl =
+  $("#citySearch").on("click", function () {
+
+
+    event.preventDefault();
+    colorChange();
+    // Shows certain elements on click.
+    $("h4").show();
+    $("#fiveDaySection").show();
+    $fiveDay.empty();
+    $grabCity = $cityInput.val();
+    console.log($grabCity);
+    localStorage.setItem("lastCity", ($grabCity));
+    $queryUrl =
+      "https://api.openweathermap.org/data/2.5/weather?q=" +
+      $grabCity +
+      "&units=imperial&appid=" +
+      $apiKey;
+
+    $.ajax({
+      url: $queryUrl,
+      method: "GET",
+    }).then(function (response) {
+      $latRelay = response.coord.lat;
+      $lonRelay = response.coord.lon;
+      $country = response.sys.country;
+      console.log(response);
+      console.log(response.sys.country);
+      $("#country").html($country);
+      $oneCallUrl =
       "https://api.openweathermap.org/data/2.5/onecall?lat=" +
       $latRelay +
       "&lon=" +
@@ -120,64 +112,65 @@ $("#citySearch").on("click", function () {
       "&units=imperial" +
       "&appid=" +
       $apiKey;
-    $paintCity.text(response.name);
+      $paintCity.text(response.name);
 
-    currencyCodeGrab($country);
+      currencyCodeGrab($country);
 
-    $.ajax({
-      url: $oneCallUrl,
-      method: "GET",
-    }).then(function (response) {
-      console.log(response);
+      $.ajax({
+        url: $oneCallUrl,
+        method: "GET",
+      }).then(function (response) {
+        console.log(response);
 
-      $dailyDate = [];
-      $dailyIcons = [];
-      $dailyHighTemp = [];
-      $dailyLowTemp = [];
-      $dailyHumidity = [];
-      $forecastIcons = $(".icons");
-      $forecastHumidty = $(".forecastHumidity");
-      var iconUrl = "https://openweathermap.org/img/wn/";
+        $dailyDate = [];
+        $dailyIcons = [];
+        $dailyHighTemp = [];
+        $dailyLowTemp = [];
+        $dailyHumidity = [];
+        $forecastIcons = $(".icons");
+        $forecastHumidty = $(".forecastHumidity");
+        var iconUrl = "https://openweathermap.org/img/wn/";
 
-      for (var i = 0; i < 5; i++) {
-        var newDate = moment().add(i, "days").format("M/D/YYYY");
-        $dailyDate.push(newDate);
-      }
-      for (var i = 0; i < 5; i++) {
-        $saveHighTemp = response.daily[i].temp.max;
-        $dailyHighTemp.push($saveHighTemp);
-      }
-      for (var i = 0; i < 5; i++) {
-        $saveLowTemp = response.daily[i].temp.min;
-        $dailyLowTemp.push($saveLowTemp);
-      }
+        for (var i = 0; i < 5; i++) {
+          var newDate = moment().add(i, "days").format("M/D/YYYY");
+          $dailyDate.push(newDate);
+        }
+        for (var i = 0; i < 5; i++) {
+          $saveHighTemp = response.daily[i].temp.max;
+          $dailyHighTemp.push($saveHighTemp);
+        }
+        for (var i = 0; i < 5; i++) {
+          $saveLowTemp = response.daily[i].temp.min;
+          $dailyLowTemp.push($saveLowTemp);
+        }
 
-      for (var i = 0; i < 5; i++) {
-        $saveIcons = response.daily[i].weather[0].icon;
-        $dailyIcons.push($saveIcons);
-      }
-      for (var i = 0; i < 5; i++) {
-        $saveHumidity = response.daily[i].humidity;
-        $dailyHumidity.push($saveHumidity);
-      }
+        for (var i = 0; i < 5; i++) {
+          $saveIcons = response.daily[i].weather[0].icon;
+          $dailyIcons.push($saveIcons);
+        }
+        for (var i = 0; i < 5; i++) {
+          $saveHumidity = response.daily[i].humidity;
+          $dailyHumidity.push($saveHumidity);
+        }
 
-      $fiveDay.each(function (index) {
-        $(this).append("<p>" + $dailyDate[index] + "</p>");
-        $(this).append(
-          "<p>High: " + $dailyHighTemp[index].toFixed() + "&degF" + "</p>"
-        );
-        $(this).append(
-          "<p>Low: " + $dailyLowTemp[index].toFixed() + "&degF" + "</p>"
-        );
-        $(this).append(
-          "<img src=" + iconUrl + $dailyIcons[index] + ".png" + ">"
-        );
-        $(this).append("<p>Humidity: " + $dailyHumidity[index] + "%</p>");
+        $fiveDay.each(function (index) {
+          $(this).append("<p>" + $dailyDate[index] + "</p>");
+          $(this).append(
+            "<p>High: " + $dailyHighTemp[index].toFixed() + "&degF" + "</p>"
+          );
+          $(this).append(
+            "<p>Low: " + $dailyLowTemp[index].toFixed() + "&degF" + "</p>"
+          );
+          $(this).append(
+            "<img src=" + iconUrl + $dailyIcons[index] + ".png" + ">"
+          );
+          $(this).append("<p>Humidity: " + $dailyHumidity[index] + "%</p>");
+        });
       });
-    });
     // This call's the funciton that generates the country name from the country code and paints it to the page! 
-    countryName($country);
-  });
+      countryName($country);
+    });
+
 });
 
 
