@@ -16,6 +16,7 @@ $french = ("#fr");
 $italian = ("#it");
 $spanish = ("#de");
 
+
 // $('.dropdown-item').on('click',function() {
 //   console.log($(this).attr('tolang'))
 // })
