@@ -1,736 +1,728 @@
 /***** NIGHT MODE ******/
 /* Desktop Display - Large */
 body {
-	background-image: url(assets/nightmode.png);
-	background-attachment: fixed;
-	background-size: cover;
-	background-repeat: no-repeat;
+  background-image: url(assets/nightmode.png);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .container-fluid {
-	margin-left: 12px;
+  margin-left: 12px;
 }
 
 /****** Styling for everything in the Header ******/
 header {
-	height: 130px;
+  height: 130px;
 }
 h1 {
-	font-family: "Hachi Maru Pop", cursive;
-	display: inline-block;
-	padding: 20px 20px 0 0;
-	font-size: 60px;
-	font-weight: bolder;
-	color: rgb(128, 0, 96);
-	margin-bottom: 10px;
+  font-family: "Hachi Maru Pop", cursive;
+  display: inline-block;
+  padding: 20px 20px 0 0;
+  font-size: 60px;
+  font-weight: bolder;
+  color: rgb(128, 0, 96);
+  margin-bottom: 10px;
 }
 .arrows {
-	font-size: 40px;
+  font-size: 40px;
 }
 .aOne {
-	color: teal;
+  color: teal;
 }
 .aTwo {
-	color: rgb(128, 0, 96);
+  color: rgb(128, 0, 96);
 }
 .aThree {
-	color: lightgray;
+  color: lightgray;
 }
 #cOne {
-	color: teal;
+  color: teal;
 }
 #cTwo {
-	color: rgb(128, 0, 96);
+  color: rgb(128, 0, 96);
 }
 #cThree {
-	color: lightgray;
+  color: lightgray;
 }
 #cityCountry {
-	float: right;
-	padding-bottom: 0;
-	margin-right: 10px;
-	color: teal;
-	font-size: 48px;
-	padding-top: 34px;
+  float: right;
+  padding-bottom: 0;
+  margin-right: 10px;
+  color: teal;
+  font-size: 48px;
+  padding-top: 34px;
 }
 #country {
-	float: right;
-	padding-top: 0;
-	margin-right: 10px;
-	font-size: 28px;
-	font-family: "Roboto Slab", serif;
-	color: rgb(128, 0, 96);
+  float: right;
+  padding-top: 0;
+  margin-right: 10px;
+  font-size: 28px;
+  font-family: "Roboto Slab", serif;
+  color: rgb(128, 0, 96);
 }
 
 /****** Styling for first column ******/
 #whereHeading {
-	padding-left: 50px;
+  padding-left: 50px;
 }
 h2 {
-	float: left;
-	font-size: 20px;
-	margin-right: 10px;
-	color: lightgray;
-	font-family: "Roboto Slab", serif;
+  float: left;
+  font-size: 20px;
+  margin-right: 10px;
+  color: lightgray;
+  font-family: "Roboto Slab", serif;
 }
 #where {
-	color: teal;
-	font-size: 38px;
-	font-weight: bolder;
-	padding-right: 5px;
-	font-family: "Hachi Maru Pop", cursive;
+  color: teal;
+  font-size: 38px;
+  font-weight: bolder;
+  padding-right: 5px;
+  font-family: "Hachi Maru Pop", cursive;
 }
 #cityInput {
-	margin-top: 10px;
-	float: left;
-	width: 200px;
-	height: 40px;
-	font-size: 14px;
+  margin-top: 10px;
+  float: left;
+  width: 200px;
+  height: 40px;
+  font-size: 14px;
 }
 #citySearch {
-	color: lightgray;
-	background-color: rgb(128, 0, 96);
-	margin-top: 10px;
-	float: left;
-	height: 40px;
-	width: 40px;
-	margin-left: 10px;
+  color: lightgray;
+  background-color: rgb(128, 0, 96);
+  margin-top: 10px;
+  float: left;
+  height: 40px;
+  width: 40px;
+  margin-left: 10px;
 }
 #currencySection {
-	height: 60px;
-	padding: 10px 0 0 110px;
+  height: 60px;
+  padding: 10px 0 0 110px;
 }
 h4 {
-	float: left;
-	font-size: 20px;
-	padding: 10px 15px 20px 0;
-	color: lightgray;
-	font-family: "Roboto Slab", serif;
+  float: left;
+  font-size: 20px;
+  padding: 10px 15px 20px 0;
+  color: lightgray;
+  font-family: "Roboto Slab", serif;
 }
 #money {
-	font-family: "Hachi Maru Pop", cursive;
-	font-weight: bolder;
-	font-size: 32px;
-	padding-left: 5px;
-	color: teal;
+  font-family: "Hachi Maru Pop", cursive;
+  font-weight: bolder;
+  font-size: 32px;
+  padding-left: 5px;
+  color: teal;
 }
 
 #localCurrency {
-	height: 140px;
-	font-size: 20px;
-	color: white;
-	text-align: left;
-	padding-left: 110px;
-	font-family: "Roboto Slab", serif;
+  height: 140px;
+  font-size: 20px;
+  color: white;
+  text-align: left;
+  padding-left: 110px;
+  font-family: "Roboto Slab", serif;
 }
 
 /****** Styling for everything in the second column. ******/
 #outputArea {
-	padding-left: 100px;
+  padding-left: 100px;
 }
 #phraseOutput {
-	font-size: 48px;
-	font-family: "Hachi Maru Pop", cursive;
-	font-weight: bolder;
-	color: lightgray;
-	text-align: center;
+  font-size: 48px;
+  font-family: "Hachi Maru Pop", cursive;
+  font-weight: bolder;
+  color: lightgray;
+  text-align: center;
 }
 
 /****** Styling for everything in the third column. ******/
 #translateMe {
-	text-align: right;
-	font-size: 20px;
-	font-family: "Roboto Slab", serif;
-	padding: 20px 30px 0 0;
-	color: lightgray;
+  text-align: right;
+  font-size: 20px;
+  font-family: "Roboto Slab", serif;
+  padding: 20px 30px 0 0;
+  color: lightgray;
 }
 #phraseInput {
-	width: 180px;
-	height: 40px;
-	float: left;
-	margin: 0 10px 0 110px;
+  width: 180px;
+  height: 40px;
+  float: left;
+  margin: 0 10px 0 110px;
 }
 .translateBtn {
-	float: left;
-	height: 40px;
-	width: 124px;
-	font-size: 16px;
-	color: lightgray;
-	background-color: rgb(128, 0, 96);
+  float: left;
+  height: 40px;
+  width: 124px;
+  font-size: 16px;
+  color: lightgray;
+  background-color: rgb(128, 0, 96);
 }
 .translateBtn:hover {
-	background-color: teal;
-	color: snow;
+  background-color: teal;
+  color: snow;
 }
 .translate-option {
-	margin-top: 40px;
-	margin-left: 20px;
+  margin-top: 40px;
+  margin-left: 20px;
 }
 #me {
-	font-family: "Hachi Maru Pop", cursive;
-	font-size: 28px;
-	font-weight: bolder;
-	color: teal;
+  font-family: "Hachi Maru Pop", cursive;
+  font-size: 28px;
+  font-weight: bolder;
+  color: teal;
 }
 .dropdown-menu {
-	list-style-type: none;
-	padding-left: 290px;
-	margin-top: 35px;
-	position: absolute;
-	background-color: rgba(255, 255, 255, 0);
-	border:0px;
-	outline:0px;
+  list-style-type: none;
+  padding-left: 290px;
+  margin-top: 35px;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0);
+  border: 0px;
+  outline: 0px;
 }
 .dropdown-item {
-	color: white;
-	font-size: larger;
-	font-weight: bold;
-} 
+  color: white;
+  font-size: larger;
+  font-weight: bold;
+}
 
 /****** Styling for everything in the weather section ******/
 #fiveDaySection {
-	padding-top: 300px;
-	padding-left: 0px;
-	float: left;
-	width: 100%;
+  padding-top: 300px;
+  padding-left: 0px;
+  float: left;
+  width: 100%;
 }
 h3 {
-	float: left;
-	font-size: 32px;
-	padding-top: 90px;
-	padding-left: 100px;
-	color: rgb(128, 0, 96);
-	font-weight: bolder;
-	font-family: "Roboto Slab", serif;
+  float: left;
+  font-size: 32px;
+  padding-top: 90px;
+  padding-left: 100px;
+  color: rgb(128, 0, 96);
+  font-weight: bolder;
+  font-family: "Roboto Slab", serif;
 }
 #forecast {
-	font-family: "Hachi Maru Pop", cursive;
-	font-weight: bolder;
-	font-size: 52px;
-	padding-left: 160px;
-	color: lightgray;
+  font-family: "Hachi Maru Pop", cursive;
+  font-weight: bolder;
+  font-size: 52px;
+  padding-left: 160px;
+  color: lightgray;
 }
 #forecastSection {
-	float: right;
-	padding-right: 300px;
-	padding-top: 50px;
+  float: right;
+  padding-right: 300px;
+  padding-top: 50px;
 }
 .fiveDay {
-	display: inline-block;
-	height: 180px;
-	width: 180px;
-	padding: 10px;
-	text-align: center;
-	background-color: rgb(128, 0, 96);
-	color: white;
-	font-weight: bolder;
-	border-radius: 10%;
-	margin-right: 10px;
+  display: inline-block;
+  height: 180px;
+  width: 180px;
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(128, 0, 96);
+  color: white;
+  font-weight: bolder;
+  border-radius: 10%;
+  margin-right: 10px;
 }
 p {
-	margin-bottom: 4px;
+  margin-bottom: 4px;
 }
 /* * MacBook Pro (1.5 scaling) */
-@media only screen and (max-width: 1680px) { 
-	#phraseInput {
-		margin-left: 60px;
-	}
-	#forecastSection {
-		padding-right: 40px;
-		padding-left: 40px;
-	}
+@media only screen and (max-width: 1680px) {
+  #phraseInput {
+    margin-left: 60px;
+  }
+  #forecastSection {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
 }
 /* * MacBook Pro (2x scaling)* */
 @media only screen and (max-width: 1440px) {
-	#whereHeading {
-		padding-left: 0px;
-	}
-	h2 {
-		padding-left: 50px;	
-	}
-	#cityInput {
-		width: 160px;
-	}
-	#currencySection {
-		padding-left: 80px;
-	}
-	h4 {
-		margin-bottom: 0px;
-		padding-bottom: 10px;
-	}
-	#localCurrency {
-		padding-left: 80px;
-	}
-	#phraseOutput {
-		font-size: 38px;
-	}
-	#phraseInput {
-		width: 172px;
-		margin-left: 0;
-	}
-	.dropdown-menu {
-		padding-left: 175px;
-	}
-	#fiveDaySection {
-		padding-top: 0px;
-	}
-	h3 {
-		padding-top: 60px;
-		padding-left: 140px;
-		font-size: 28px;
-	}
-	#forecast {
-		font-size: 44px;
-	}
+  #whereHeading {
+    padding-left: 0px;
+  }
+  h2 {
+    padding-left: 50px;
+  }
+  #cityInput {
+    width: 160px;
+  }
+  #currencySection {
+    padding-left: 80px;
+  }
+  h4 {
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+  }
+  #localCurrency {
+    padding-left: 80px;
+  }
+  #phraseOutput {
+    font-size: 38px;
+  }
+  #phraseInput {
+    width: 172px;
+    margin-left: 0;
+  }
+  .dropdown-menu {
+    padding-left: 175px;
+  }
+  #fiveDaySection {
+    padding-top: 0px;
+  }
+  h3 {
+    padding-top: 60px;
+    padding-left: 140px;
+    font-size: 28px;
+  }
+  #forecast {
+    font-size: 44px;
+  }
 }
 /* * iPad PTo 12" (landscape) & HD laptops * */
 @media only screen and (max-width: 1366px) {
-	header {
-		height: 110px;
-	}
-	h1 {
-		font-size: 48px;
-	}
-	.arrows {
-		font-size: 32px;
-	}
-	#cityCountry {
-		font-size: 40px;
-		padding-top: 24px;
-		margin-right: 0px;
-	}
-	#country {
-		font-size: 24px;
-		margin-right: 0px;
-	}
-	#where {
-		font-size: 32px;
-	}
-	h2 {
-		font-size: 18px;
-		margin-top: 8px;
-		padding-left: 36px;
-	}
-	#currencySection {
-		padding-left: 60px;
-	}
-	h4 {
-		font-size: 18px;
-		padding-top: 0px;
-	}
-	#money {
-		font-size: 28px;
-	}
-	#localCurrency {
-		font-size: 18px;
-		padding-left: 60px;
-	}
-	#translateMe {
-		padding-right: 10px;
-	}
-	#fiveDaySection {
-		padding-top: 120px;
-	}
-	h3 {
-		font-size: 26px;
-		padding-top: 100px;
-		padding-left: 20px;
-	}
-	#forecast {
-		font-size: 42px;
-		padding-left: 40px;
-	}
-	#forecastSection {
-		padding-right: 0px;
-	}
+  header {
+    height: 110px;
+  }
+  h1 {
+    font-size: 48px;
+  }
+  .arrows {
+    font-size: 32px;
+  }
+  #cityCountry {
+    font-size: 40px;
+    padding-top: 24px;
+    margin-right: 0px;
+  }
+  #country {
+    font-size: 24px;
+    margin-right: 0px;
+  }
+  #where {
+    font-size: 32px;
+  }
+  h2 {
+    font-size: 18px;
+    margin-top: 8px;
+    padding-left: 36px;
+  }
+  #currencySection {
+    padding-left: 60px;
+  }
+  h4 {
+    font-size: 18px;
+    padding-top: 0px;
+  }
+  #money {
+    font-size: 28px;
+  }
+  #localCurrency {
+    font-size: 18px;
+    padding-left: 60px;
+  }
+  #translateMe {
+    padding-right: 10px;
+  }
+  #fiveDaySection {
+    padding-top: 120px;
+  }
+  h3 {
+    font-size: 26px;
+    padding-top: 100px;
+    padding-left: 20px;
+  }
+  #forecast {
+    font-size: 42px;
+    padding-left: 40px;
+  }
+  #forecastSection {
+    padding-right: 0px;
+  }
 }
 /* * iPad Pro 10" * */
 @media only screen and (max-width: 1112px) {
-	#cityCountry {
-		font-size: 34px;
-		padding-top:26px;
-		margin-bottom: 0;
-	}
-	#country {
-		font-size: 22px;
-	}
-	#cityInput {
-		margin-left: 40px;
-	}
-	#where {
-		font-size: 26px;
-	}
-	h2 {
-		font-size: 16px;
-		padding-left: 20px;
-	}
-	#cityInput {
-		margin-left: 0px;
-		width: 140px;
-		padding: 4px;
-	}
-	#currencySection {
-		padding-left: 40px;
-	}
-	h4 {
-		font-size: 16px;
-	}
-	#money {
-		font-size: 26px;
-	}
-	#localCurrency {
-		padding-left: 40px;
-	}
-	#translateMe {
-		margin-bottom: 5px;
-	}
-	#phraseOutput {
-		font-size: 32px;
-		padding-top: 40px;
-	}
-	#phraseInput {
-		width: 130px;
-	}
-	#langSel {
-		width: 108px;
-		font-size: 14px;
-	}
-	.dropdown-menu {
-		padding-left: 125px;
-	}
-	#fiveDaySection {
-		padding-top: 20px;
-	}
-	h3 {
-		font-size: 22px;
-	}
-	#forecast {
-		font-size: 32px;
-	}
-	#forecastSection {
-		padding-top: 20px;
-	}
-	.fiveDay {
-		height: 162px;
-		width:162px;
-	}
-	p {
-		margin-bottom: 0px;
-	}
+  #cityCountry {
+    font-size: 34px;
+    padding-top: 26px;
+    margin-bottom: 0;
+  }
+  #country {
+    font-size: 22px;
+  }
+  #cityInput {
+    margin-left: 40px;
+  }
+  #where {
+    font-size: 26px;
+  }
+  h2 {
+    font-size: 16px;
+    padding-left: 20px;
+  }
+  #cityInput {
+    margin-left: 0px;
+    width: 140px;
+    padding: 4px;
+  }
+  #currencySection {
+    padding-left: 40px;
+  }
+  h4 {
+    font-size: 16px;
+  }
+  #money {
+    font-size: 26px;
+  }
+  #localCurrency {
+    padding-left: 40px;
+  }
+  #translateMe {
+    margin-bottom: 5px;
+  }
+  #phraseOutput {
+    font-size: 32px;
+    padding-top: 40px;
+  }
+  #phraseInput {
+    width: 130px;
+  }
+  #langSel {
+    width: 108px;
+    font-size: 14px;
+  }
+  .dropdown-menu {
+    padding-left: 125px;
+  }
+  #fiveDaySection {
+    padding-top: 20px;
+  }
+  h3 {
+    font-size: 22px;
+  }
+  #forecast {
+    font-size: 32px;
+  }
+  #forecastSection {
+    padding-top: 20px;
+  }
+  .fiveDay {
+    height: 162px;
+    width: 162px;
+  }
+  p {
+    margin-bottom: 0px;
+  }
 }
 /* * iPad Air, iPad Mini, iPad Pro 9″* */
 @media only screen and (max-width: 1024px) {
-	#cityCountry {
-		padding-top: 34px;
-	}
-	#where {
-		font-size: 34px;
-	}
-	h2 {
-		font-size: 20px;
-	}
-	#cityInput {
-		margin-left: 35px;
-		width: 200px;
-	}
-	#currencySection  {
-		padding-left: 25px;
-		padding-top: 10px;
-	}
-	h4 {
-		font-size: 20px;
-		margin-bottom: 10px;
-	}
-	#money {
-		font-size: 34px;
-	}
-	#localCurrency {
-		padding-left: 40px;
-		font-size: 20px;
-	}
-	#outputArea {
-		padding-left: 0px;
-	}
-	#phraseOutput {
-		padding-top: 200px;
-		font-size: 32px;
-	}
-	#phraseInput {
-		width: 180px;
-		margin: 10px 0px 5px 40px;
-	}
-	#langSel {
-		width: 180px;
-		font-size: 18px;
-		margin-left: 40px;
-	}
-	.dropdown-menu {
-		padding-left: 65px;
-		padding-top: 60px;
-	}
-	#fiveDaySection {
-		padding-top: 0px;
-	}
-	h3 {
-		padding-top: 20px;
-		font-size: 30px;
-	}
-	#forecast {
-		font-size: 42px;
-	}
+  #cityCountry {
+    padding-top: 34px;
+  }
+  #where {
+    font-size: 34px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  #cityInput {
+    margin-left: 35px;
+    width: 200px;
+  }
+  #currencySection {
+    padding-left: 25px;
+    padding-top: 10px;
+  }
+  h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  #money {
+    font-size: 34px;
+  }
+  #localCurrency {
+    padding-left: 40px;
+    font-size: 20px;
+  }
+  #outputArea {
+    padding-left: 0px;
+  }
+  #phraseOutput {
+    padding-top: 200px;
+    font-size: 32px;
+  }
+  #phraseInput {
+    width: 180px;
+    margin: 10px 0px 5px 40px;
+  }
+  #langSel {
+    width: 180px;
+    font-size: 18px;
+    margin-left: 40px;
+  }
+  .dropdown-menu {
+    padding-left: 65px;
+    padding-top: 60px;
+  }
+  #fiveDaySection {
+    padding-top: 0px;
+  }
+  h3 {
+    padding-top: 20px;
+    font-size: 30px;
+  }
+  #forecast {
+    font-size: 42px;
+  }
 }
 /* * iPad * */
 @media only screen and (max-width: 834px) {
-	#phraseInput {
-		width: 170px;
-		margin-left: 0px;
-	}
-	#langSel {
-		width: 170px;
-		margin-left: 0px;
-	}
-	#fiveDaySection {
-		padding-top: 120px;
-	}
-	#forecastSection {
-		text-align: center;
-	}
-	.fiveDay {
-		margin-right: 30px;
-		margin-bottom: 20px;
-	}	
+  #phraseInput {
+    width: 170px;
+    margin-left: 0px;
+  }
+  #langSel {
+    width: 170px;
+    margin-left: 0px;
+  }
+  #fiveDaySection {
+    padding-top: 120px;
+  }
+  #forecastSection {
+    text-align: center;
+  }
+  .fiveDay {
+    margin-right: 30px;
+    margin-bottom: 20px;
+  }
 }
 /* * iPad * */
 @media only screen and (max-width: 768px) {
-	#cityCountry {
-		padding-right: 0px;
-	}
-	#country {
-		padding-right: 0px;
-	}
-	#where {
-		font-size: 30px;
-	}
-	#cityInput {
-		margin-left: 25px;
-	}
-	#currencySection {
-		padding-top: 20px;
-	}
-	h4{
-		font-size: 18px;
-	}
-	#money {
-		font-size: 30px;
-	}
-	#localCurrency {
-		padding-left: 30px;
-	}
-	#phraseOutput {
-		padding-right: 20px;
-	}
-	#translateMe {
-		padding-right: 0px;
-		padding-top: 30px;
-	}
-	#phraseInput {
-		width: 160px;
-	}
-	#langSel {
-		width: 160px;
-	}
-	.dropdown-menu {
-		padding-left: 20px;
-		padding-top: 60px;
-	}
-	#fiveDaySection {
-		padding-top: 0px;
-	}
-	.fiveDay {
-		margin-right: 20px;
-	}
+  #cityCountry {
+    padding-right: 0px;
+  }
+  #country {
+    padding-right: 0px;
+  }
+  #where {
+    font-size: 30px;
+  }
+  #cityInput {
+    margin-left: 25px;
+  }
+  #currencySection {
+    padding-top: 20px;
+  }
+  h4 {
+    font-size: 18px;
+  }
+  #money {
+    font-size: 30px;
+  }
+  #localCurrency {
+    padding-left: 30px;
+  }
+  #phraseOutput {
+    padding-right: 20px;
+  }
+  #translateMe {
+    padding-right: 0px;
+    padding-top: 30px;
+  }
+  #phraseInput {
+    width: 160px;
+  }
+  #langSel {
+    width: 160px;
+  }
+  .dropdown-menu {
+    padding-left: 20px;
+    padding-top: 60px;
+  }
+  #fiveDaySection {
+    padding-top: 0px;
+  }
+  .fiveDay {
+    margin-right: 20px;
+  }
 }
 /* * iPhone X (landscape)* */
 @media only screen and (max-width: 812px) {
-	h4 {
-		padding-right: 0px;
-	}
-	#localCurrency {
-		font-size: 18px;
-	}
-	#phraseOutput {
-		padding-top: 10px;
-		font-size: 32px;
-	}
-	#translateMe {
-		padding-top: 0px;
-	}
-	.dropdown-menu {
-		padding-left: 15px;
-	}
-	#fiveDaySection {
-		padding-top: 0px;
-	}
-	h3 {
-		padding-top: 0px;
-	}
+  h4 {
+    padding-right: 0px;
+  }
+  #localCurrency {
+    font-size: 18px;
+  }
+  #phraseOutput {
+    padding-top: 10px;
+    font-size: 32px;
+  }
+  #translateMe {
+    padding-top: 0px;
+  }
+  .dropdown-menu {
+    padding-left: 15px;
+  }
+  #fiveDaySection {
+    padding-top: 0px;
+  }
+  h3 {
+    padding-top: 0px;
+  }
 }
 /* * iPhone 8 Plus (landscape)* */
 @media only screen and (max-width: 736px) {
-	.arrows {
-		font-size: 28px;
-	}
-	#localCurrency {
-		height: 100px;
-	}
-	#translateMe {
-		padding-top: 60px;
-		text-align: center;
-	}
-	#phraseInput {
-		margin-left: 180px;
-	}
-	#langSel {
-		margin-top: 10px;
-		margin-left: 5px;
-	}
-	.dropdown-menu {
-		padding-left: 350px;
-		padding-top: 20px;
-	}
-	#fiveDaySection {
-		padding-top: 60px;
-	}
+  .arrows {
+    font-size: 28px;
+  }
+  #localCurrency {
+    height: 100px;
+  }
+  #translateMe {
+    padding-top: 60px;
+    text-align: center;
+  }
+  #phraseInput {
+    margin-left: 180px;
+  }
+  #langSel {
+    margin-top: 10px;
+    margin-left: 5px;
+  }
+  .dropdown-menu {
+    padding-left: 350px;
+    padding-top: 20px;
+  }
+  #fiveDaySection {
+    padding-top: 60px;
+  }
 }
 /* * iPhone 6/8 * */
-@media only screen and (max-width: 667px) { 
-	h1 {
-		font-size: 40px;
-	}
-	.arrows {
-		font-size: 22px;
-	}
-	#cityCountry {
-		padding-right: 10px;
-	}
-	#country {
-		padding-right: 10px;
-	}
-	#translateMe {
-		padding-top: 30px;
-	}
-	#phraseInput {
-		margin-left: 156px;
-	}
-	.dropdown-menu {
-		padding-left: 335px;
-		
-	}
+@media only screen and (max-width: 667px) {
+  h1 {
+    font-size: 40px;
+  }
+  .arrows {
+    font-size: 22px;
+  }
+  #cityCountry {
+    padding-right: 10px;
+  }
+  #country {
+    padding-right: 10px;
+  }
+  #translateMe {
+    padding-top: 30px;
+  }
+  #phraseInput {
+    margin-left: 156px;
+  }
+  .dropdown-menu {
+    padding-left: 335px;
+  }
 }
 /* * iPhone SE (landscape)* */
-@media only screen and (max-width: 568px) { 
-	header {
-		padding-left: 0px;
-		height: 125px;
-	}
-	h1 {
-		font-size: 36px;
-	}
-	.arrows {
-		font-size: 18px;
-	}
-	#cityInput {
-		margin-left: 0px;
-	}
-	#cityCountry {
-		font-size: 30px;
-		padding-top:28px;
-	}
-	#phraseInput {
-		margin-left: 100px;
-	}
-	.dropdown-menu {
-		padding-left: 315px;
-		
-	}
+@media only screen and (max-width: 568px) {
+  header {
+    padding-left: 0px;
+    height: 125px;
+  }
+  h1 {
+    font-size: 36px;
+  }
+  .arrows {
+    font-size: 18px;
+  }
+  #cityInput {
+    margin-left: 0px;
+  }
+  #cityCountry {
+    font-size: 30px;
+    padding-top: 28px;
+  }
+  #phraseInput {
+    margin-left: 100px;
+  }
+  .dropdown-menu {
+    padding-left: 315px;
+  }
 }
 /* * iPhone 8 Plus * */
-@media only screen and (max-width: 414px) { 
-	h1 {
-		font-size: 32px;
-	}
-	#cityCountry {
-		float: left;
-		padding-top: 0px;
-	}
-	#country {
-		float: left;
-		margin-bottom: 0px;
-		padding-top: 10px;
-	}
-	#cityInput {
-		margin-left: 25px;
-	}
-	#phraseInput {
-		margin-left: 25px;
-	}
-	.dropdown-menu {
-		padding-left: 200px;
-		
-	}
-	#fiveDaySection {
-		padding-top: 160px;
-	}
+@media only screen and (max-width: 414px) {
+  h1 {
+    font-size: 32px;
+  }
+  #cityCountry {
+    float: left;
+    padding-top: 0px;
+  }
+  #country {
+    float: left;
+    margin-bottom: 0px;
+    padding-top: 10px;
+  }
+  #cityInput {
+    margin-left: 25px;
+  }
+  #phraseInput {
+    margin-left: 25px;
+  }
+  .dropdown-menu {
+    padding-left: 200px;
+  }
+  #fiveDaySection {
+    padding-top: 160px;
+  }
 }
 /* * iPhone X* */
-@media only screen and (max-width: 375px) { 
-	h1 {
-		font-size: 30px;
-		padding-right: 10px;
-	}
-	.arrows {
-		font-size: 16px;
-	}
-	#cityCountry {
-		font-size: 26px;
-	}
-	#country {
-		font-size: 18px;
-	}
-	#phraseInput {
-		margin-left: 5px;
-	}
-	.dropdown-menu {
-		padding-left: 180px;
-		
-	}
+@media only screen and (max-width: 375px) {
+  h1 {
+    font-size: 30px;
+    padding-right: 10px;
+  }
+  .arrows {
+    font-size: 16px;
+  }
+  #cityCountry {
+    font-size: 26px;
+  }
+  #country {
+    font-size: 18px;
+  }
+  #phraseInput {
+    margin-left: 5px;
+  }
+  .dropdown-menu {
+    padding-left: 180px;
+  }
 }
 /* * iPhone SE* */
 @media only screen and (max-width: 320px) {
-	h1 {
-		font-size: 26px;
-		padding-right: 10px;
-	}
-	.arrows {
-		font-size: 12px;
-	}
-	#cityCountry {
-		font-size: 26px;
-	}
-	#country {
-		font-size: 18px;
-	}
-	#phraseInput {
-		margin-left: 0px;
-		width: 160px;
-	}
-	#langSel {
-		width: 130px;
-	}
-	#forecast {
-		font-size: 36px;
-	}
+  h1 {
+    font-size: 26px;
+    padding-right: 10px;
+  }
+  .arrows {
+    font-size: 12px;
+  }
+  #cityCountry {
+    font-size: 26px;
+  }
+  #country {
+    font-size: 18px;
+  }
+  #phraseInput {
+    margin-left: 0px;
+    width: 160px;
+  }
+  #langSel {
+    width: 130px;
+  }
+  #forecast {
+    font-size: 36px;
+  }
 }
-
-
-
-
