@@ -46,6 +46,13 @@ The application will be responsive to whatever device I am using at the moment.
 
 ## Screen Shots 
 
+![Travel1](https://github.com/CaitlinCollins/Travel-Pal/blob/main/assets/Travel1.png)
+![Travel2](https://github.com/CaitlinCollins/Travel-Pal/blob/main/assets/Travel2.png)
+![Travel3](https://github.com/CaitlinCollins/Travel-Pal/blob/main/assets/Travel3.png)
+![Travel4](https://github.com/CaitlinCollins/Travel-Pal/blob/main/assets/Travel4.png)
+![Travel5](https://github.com/CaitlinCollins/Travel-Pal/blob/main/assets/Travel5.png)
+![Travel6](https://github.com/CaitlinCollins/Travel-Pal/blob/main/assets/Travel6.png)
+
 
 ## Deploy Link ##
 https://caitlincollins.github.io/Travel-Pal/
