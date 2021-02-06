@@ -1,5 +1,9 @@
 # Travel-Pal
 The modern day traveler's best friend!
+
+## Deploy Link ##
+https://caitlincollins.github.io/Travel-Pal/
+
 ## Table of Contents
 
 [User Story](https://github.com/CaitlinCollins/Travel-Pal#user-story)
@@ -8,7 +12,7 @@ The modern day traveler's best friend!
 
 [Screen Shots](https://github.com/CaitlinCollins/Travel-Pal#screen-shots)
 
-[Deploy Link](https://github.com/CaitlinCollins/Travel-Pal#deploy-link)
+[License](https://github.com/CaitlinCollins/Travel-Pal#license)
 
 [Collaborators](https://github.com/CaitlinCollins/Travel-Pal#collaborators)
 
@@ -63,13 +67,14 @@ The application will be responsive to whatever device I am using at the moment.
 ![Travel5](https://github.com/CaitlinCollins/Travel-Pal/blob/main/assets/Travel5.png)
 ![Travel6](https://github.com/CaitlinCollins/Travel-Pal/blob/main/assets/Travel6.png)
 
+## License ##
 
-## Deploy Link ##
-https://caitlincollins.github.io/Travel-Pal/
+MIT
 
 ## Collaborators ##
 Caitlin Collins caitlin.aileen86@gmail.com
 
 Chris Gutierrez cmgson1@gmail.com
+
 
 
