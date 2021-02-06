@@ -10,6 +10,8 @@ The modern day traveler's best friend!
 
 [Deploy Link](https://github.com/CaitlinCollins/Travel-Pal#deploy-link)
 
+[Collaborators](https://github.com/CaitlinCollins/Travel-Pal#collaborators)
+
 ## User Story
 
 I am a frequent international traveller and I want an application that allows me to input a city name and provide me with all the necessary information to make my travels easier. 
@@ -67,6 +69,7 @@ https://caitlincollins.github.io/Travel-Pal/
 
 ## Collaborators ##
 Caitlin Collins caitlin.aileen86@gmail.com
+
 Chris Gutierrez cmgson1@gmail.com
 
 
