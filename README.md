@@ -65,4 +65,8 @@ The application will be responsive to whatever device I am using at the moment.
 ## Deploy Link ##
 https://caitlincollins.github.io/Travel-Pal/
 
+## Collaborators ##
+Caitlin Collins caitlin.aileen86@gmail.com
+Chris Gutierrez cmgson1@gmail.com
+
 
